@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fonts/BebasNeue-Regular.woff') format('woff');
+}
+body{
+    max-width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0 auto;
+    background-color: #FFF0DF;
+    font-family: 'BebasNeue', sans-serif;
+    letter-spacing: 15px;
+}
+button{
+    width: 175px;
+    height: 60%;
+    padding: 1%;
+
+    font-family: 'BebasNeue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 27px;
+
+    border-radius: 30px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.19), 0 0 5px 1px rgba(0, 0, 0, 0.19);
+    margin: 2%;
+    background-color: #FF8A00;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FF8A00;
+    
+}
+button::before, button::after {
+    content: ''; /* Needed for pseudo-elements to show */
+    display: inline-block;
+    width: 5px; /* Adjust the width to counteract letter-spacing effect */
+    height: 100%;
+    vertical-align: middle;
+}
+button:hover{
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.19), 0 0 15px 2px rgba(0, 0, 0, 0.19);
+    
+    background-color: white;
+    color: #FF8A00;
+    
+}
+button:focus{
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.19), 0 0 15px 2px rgba(0, 0, 0, 0.19);
+}
+.navBarBackgound {
+    display: flex;
+    align-items: center; 
+    justify-content: baseline;
+    width: 100vw;
+    height: 12vh;
+    background-color: #ffffff;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.19), 0 0 15px 2px rgba(0, 0, 0, 0.19);
+}
+.leftNavBar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: start;
+    margin-left: 5%;
+}
+.navBarLogo{
+    height: 70%;
+    margin-right: 2%;
+}
+.textLogo{
+    height: 70%;
+}
+.pageTitle{
+    color: black;
+    font-weight: normal;
+    font-size: 275%;
+}
+.rightNavBar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: end;
+    margin-right: 2%;
+}
+.sign-up{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.sign-up:hover{
+    background-color: #FF8A00;
+    color: white;
+
+}
+.login{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.login:hover{
+    background-color: #FF8A00;
+    color: white;
+
+}
+.titleBackgound{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 5%;
+    width: fit-content;
+    height: 32vh;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.19), 0 0 15px 2px rgba(0, 0, 0, 0.19); 
+    padding-inline: 5%;
+}
+.mainBody{
+    width: 100vw;
+    height: fit-content;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.19), 0 0 15px 2px rgba(0, 0, 0, 0.19);
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.headerBLAHText{
+    font-weight: normal;
+    font-size: 475%;
+    text-align: center;
+    margin: 0;
+    padding: 4%;
+    letter-spacing: 0.08em;
+}
+.horizontalElements{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 0;
+}
+.textBox{
+    height: fit-content;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.19), 0 0 15px 2px rgba(0, 0, 0, 0.19);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    padding: 2%;
+    margin: 2%;
+    margin-top: 0;
+}
+.textBoxH{
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 275%;
+    text-align: center;
+    margin: 1%;
+}
+.textBoxP{
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 225%;
+    color: #747474;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5%;
+}
+.textBoxHGray{
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 275%;
+    text-align: center;
+    margin: 1%;
+    color: #747474;
+}
+.travelButtons{
+    margin: 5%;
+    height: fit-content;
+    width: fit-content;
+    font-size: 190%;
+}
+.bigSignUp{
+    display: grid;
+    place-self: center;
+    margin: auto;
+    font-size: 475%;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
